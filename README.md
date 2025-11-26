@@ -31,22 +31,10 @@ ML Algorithm	Isolation Forest
 Libraries	Pandas, NumPy, Matplotlib, Scikit-learn
 Visualization	Matplotlib / Seaborn
 Output	CSV results, charts
-**Project Structure**
-anomaly-detection-in-data-analytics/
-│── data/
-│   └── dataset.csv           # Input dataset
-│
-│── notebooks/
-│   └── anomaly_detection.ipynb   # Main Jupyter Notebook
-│
-│── src/
-│   └── model.py              # Isolation Forest model code
-│   └── preprocess.py         # Data cleaning + preprocessing
-│   └── visualize.py          # Charts & result visualization
-│
-│── results/
-│   └── anomalies.csv         # Detected anomalies saved here
-│
-│── README.md                 # Project documentation
-│── requirements.txt          # All Python dependencies
-│── LICENSE                   # Optional (MIT recommended)
+
+**Requirements.txt**
+pandas
+numpy
+scikit-learn
+matplotlib
+seaborn
